@@ -1,6 +1,6 @@
 import React from "react";
-import "@/assets/css/FrontPage.css";
-import webLaptopPic from "@/assets/images/websitepicture1.png";
+import "../assets/css/FrontPage.css";
+import webLaptopPic from "../assets/images/websitepicture1.png";
 
 const FrontPage = () => {
   return (
