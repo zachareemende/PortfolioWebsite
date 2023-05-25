@@ -14,6 +14,6 @@ export default defineConfig({
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
   optimizeDeps: {
-    include: ["fancy-date"],
+    include: ["esm-dep > cjs-dep"],
   },
 });
