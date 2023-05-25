@@ -1,7 +1,7 @@
 import React from "react";
-import "../assets/css/About.css";
-import webDesign from "../assets/images/b.png";
-import personalPhoto from "../assets/images/melookingatlacircle.png";
+import "@/assets/css/About.css";
+import webDesign from "@/assets/images/b.png";
+import personalPhoto from "@/assets/images/melookingatlacircle.png";
 
 const About = () => {
   return (

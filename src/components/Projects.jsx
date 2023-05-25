@@ -1,5 +1,5 @@
 import React from 'react'
-import PortfolioWebPic from "../assets/images/portfoliowebsitepic.png";
+import PortfolioWebPic from "@/assets/images/portfoliowebsitepic.png";
 
 const Projects = () => {
   return (
