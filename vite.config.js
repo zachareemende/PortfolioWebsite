@@ -8,15 +8,13 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: "src/main.jsx",
-    }, 
-    commonjsOptions: {
-      include: [/fancy-date/, /node_modules/]
-    }
+    },
+    commonjsOptions: {},
   },
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
   optimizeDeps: {
-    include: ['fancy-date'],
+    include: ["fancy-date"],
   },
 });
