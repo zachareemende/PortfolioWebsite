@@ -1,0 +1,14 @@
+.line-1 {
+  background-color: yellow;
+  height: 1px;
+  position: relative;
+  z-index: 1;
+  left: 256px;
+  
+}
+
+.line-2 {
+  background-color: yellow;
+  height: 1px;
+  z-index: 1;
+}
