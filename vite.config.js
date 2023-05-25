@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: "src/App.jsx",
+      input: "@/App.jsx",
     },
   },
   resolve: {
