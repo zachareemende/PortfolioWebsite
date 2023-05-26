@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
+  const [messageStatus, setMessageStatus] = useState(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,10 +18,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("Message sent successfully!");
+          setMessageStatus("success");
         },
         (error) => {
           console.log(error.text);
+          setMessageStatus("error");
         }
       );
   };
@@ -35,7 +37,12 @@ const Contact = () => {
           <h3 className="mb-4 text-lg text-center text-gray-600">
             Fill out the form below and I will get back to you as soon as I can.
           </h3>
-          <form ref={form} onSubmit={sendEmail} className="space-y-8" data-netlify="true">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="space-y-8"
+            data-netlify="true"
+          >
             <div>
               <label
                 htmlFor="Name"
@@ -43,9 +50,9 @@ const Contact = () => {
               >
                 Your Name
               </label>
-              
+
               <input
-                type="text" 
+                type="text"
                 name="user_name"
                 id="name"
                 className="block p-3 w-full text-sm text-white rounded-lg border  shadow-sm  bg-gray-700 border-gray-600"
@@ -62,7 +69,7 @@ const Contact = () => {
               </label>
               <input
                 type="email"
-                id="email" 
+                id="email"
                 name="user_email"
                 className="shadow-sm border border-gray-600 text-white text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700  "
                 placeholder="name@email.com"
@@ -77,15 +84,25 @@ const Contact = () => {
                 Your message
               </label>
               <textarea
-                id="message" 
+                id="message"
                 name="message"
                 rows="6"
                 className="block p-2.5 w-full text-sm text-white  rounded-lg shadow-sm border bg-gray-700 border-gray-600 "
                 placeholder="Leave a comment..."
               ></textarea>
             </div>
+            {messageStatus === "success" && (
+              <p className="text-green-500 mb-4 text-center">
+                Message sent successfully!
+              </p>
+            )}
+            {messageStatus === "error" && (
+              <p className="text-red-500 mb-4 text-center">
+                Oops, something went wrong.
+              </p>
+            )}
             <button
-              type="submit" 
+              type="submit"
               value="Send"
               className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit  p-3 bg-violet-600 flex mx-auto md:mx-0"
             >
