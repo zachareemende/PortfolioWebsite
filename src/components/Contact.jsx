@@ -35,7 +35,7 @@ const Contact = () => {
           <h3 className="mb-4 text-lg text-center text-gray-600">
             Fill out the form below and I will get back to you as soon as I can.
           </h3>
-          <form ref={form} onSubmit={sendEmail} className="space-y-8">
+          <form ref={form} onSubmit={sendEmail} className="space-y-8" data-netlify="true">
             <div>
               <label
                 htmlFor="Name"
