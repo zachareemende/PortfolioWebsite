@@ -2,6 +2,7 @@ import React from "react";
 import "@/assets/css/About.css";
 import webDesign from "@/assets/images/b.png";
 import personalPhoto from "@/assets/images/melookingatlacircle.png";
+import resume from "../assets/files/MendeZacharee_Resume_052023.pdf"
 
 const About = () => {
   return (
@@ -19,21 +20,13 @@ const About = () => {
           </div>
 
           <p className="text-white min-w-full text-lg font-light mt-5 text-center md:text-left">
-            {/* I am a full-stack developer with a strong foundation in codings best
-            practices. I completed a rigorous coding bootcamp through Coding
-            Dojo and continuously enhance my skills through self-directed
-            learning. I am passionate about technology
-            <br />
-            <br />
-            My skills also extend to building and troubleshooting computers
-            where I have years of experience.
-            <br /> */}
             I am Zacharee Mende, a full-stack developer. I have a strong passion for technology, from building and troubleshooting computers to coding to even building custom keyboards, I have always enjoyed learning anything when it comes to tech.
           </p>
           <div className="flex md:justify-normal justify-center mt-5">
             <a
-              href="#"
-              className="rounded-lg p-3 font-bold bg-violet-600 flex items-center"
+              href={resume}
+              className="rounded-lg p-3 font-bold bg-violet-600 flex items-center" 
+              download
             >
               <span className="mr-2">Resume</span>
               <svg
