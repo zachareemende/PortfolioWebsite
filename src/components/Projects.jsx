@@ -36,10 +36,10 @@ const Projects = () => {
         </h2>
         <h2 className="mt-8 text-center">
           <ul className="flex flex-col">
-            <li className="mb-2">- Responsive Design</li>
             <li className="mb-2">
               - Demonstration of <span className="text-yellow-300">clean and efficient</span> <span className="underline font-semibold">team based</span> folder/file structure
             </li>
+            <li className="mb-2">- Responsive Design</li>
             <li className="mb-2">- React / Vite</li>
             <li className="mb-2">- TailwindCSS</li>
           </ul>
