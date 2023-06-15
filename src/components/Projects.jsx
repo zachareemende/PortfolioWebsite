@@ -81,7 +81,7 @@ const Projects = () => {
 
         <h2 className="mt-4 text-center">
           <ul className="flex flex-col">
-            <li className="mb-2">- Clean interactive UI</li>
+            <li className="mb-2">- Interactive UI</li>
             <li className="mb-2">
               - Task Create, Complete, and Delete function
             </li>
