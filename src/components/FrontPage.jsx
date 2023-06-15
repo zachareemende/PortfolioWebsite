@@ -18,7 +18,7 @@ const FrontPage = () => {
           &lt; Full Stack Developer /&gt;{" "}
         </p>
         <p className="mt-6">
-          Hello, I am a skilled developer with a deep passion for technology and
+          I am a skilled developer with a deep passion for technology and
           coding.
         </p>
         <p className="mt-6">
