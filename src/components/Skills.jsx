@@ -40,7 +40,7 @@ const Skills = () => {
           <li>Git</li>
           <li>MongoDB</li>
           <li>MySQL</li>
-          
+          <li>Firebase</li>
         </ul>
       </div>
     </div>
