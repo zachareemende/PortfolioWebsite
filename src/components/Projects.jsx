@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioWebPic from "@/assets/images/portfoliowebsitepic.png";
 import TaskAppPic from "@/assets/images/taskappportfolio.png";
+import FirebaseAuthPic from "@/assets/images/firebaseauthportfolio.png";
 import GitHubTitle from "@/assets/images/GitHub_Logo_White.png";
 import GitHubBubble from "@/assets/images/github-mark-white.png";
 
@@ -15,7 +16,9 @@ const Projects = () => {
           <div className="bg-yellow-300 h-1 mt-1 m-px w-1/4 md:w-28 rounded"></div>
         </div>
       </div>
-
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+      {/* PORTFOLIO SITE */}
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
       <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden">
         <div>
           <p className="text-white text-3xl font-bold text-center">
@@ -37,7 +40,10 @@ const Projects = () => {
         <h2 className="mt-8 text-center">
           <ul className="flex flex-col">
             <li className="mb-2">
-              - Demonstration of <span className="text-yellow-300">clean and efficient</span> <span className="underline font-semibold">team based</span> folder/file structure
+              - Demonstration of{" "}
+              <span className="text-yellow-300">clean and efficient</span>{" "}
+              <span className="underline font-semibold">team based</span>{" "}
+              folder/file structure
             </li>
             <li className="mb-2">- Responsive Design</li>
             <li className="mb-2">- React / Vite</li>
@@ -63,7 +69,9 @@ const Projects = () => {
           </a>
         </div>
       </div>
-
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+      {/* TASK APP */}
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
       <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden text-center">
         <div>
           <p className="text-white text-3xl font-bold text-center">taskApp</p>
@@ -127,7 +135,76 @@ const Projects = () => {
           </a>
         </div>
       </div>
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+      {/* FIREBASE LOGIN REGISTER DEMO */}
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
 
+      <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden text-center">
+        <div>
+          <p className="text-white text-3xl font-bold text-center">Firebase Login Register Demo</p>
+          <div className="flex justify-center">
+            <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
+          </div>
+        </div>
+        <a href="https://zachareemendefirebaseauth.netlify.app/">
+          <img
+            src={FirebaseAuthPic}
+            alt="Login / Register Image"
+            className="h-36 md:h-40 mx-auto rounded"
+          />
+        </a>
+
+        <h2 className="mt-4 text-center">
+          <ul className="flex flex-col">
+            <li className="mb-2">- Interactive UI</li>
+            <li className="mb-2">
+              - Conditional Rendering
+            </li>
+            <li className="mb-2">- React / Vite</li>
+            <li className="mb-2">- Firebase Authenticaion</li>
+            <li className="mb-2">- Login Register</li>
+          </ul>
+        </h2>
+
+        <div className="flex justify-end">
+          <a href="https://zachareemendefirebaseauth.netlify.app/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 m-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+              />
+            </svg>
+          </a>
+
+          <a href="https://github.com/zachareemende/FirebaseAuth">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="w-12 m-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+      {/* OTHER / GITHUB LINK */}
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
       <div className="bg-slate-800 text-black p-6 rounded-lg shadow overflow-hidden flex-col">
         <a href="https://github.com/zachareemende">
           <img src={GitHubTitle} alt="GitHub" className="h-24 mx-auto" />
