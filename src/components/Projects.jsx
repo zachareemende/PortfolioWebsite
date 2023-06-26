@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioWebPic from "@/assets/images/portfoliowebsitepic.png";
 import TaskAppPic from "@/assets/images/taskappportfolio.png";
-import FirebaseAuthPic from "@/assets/images/firebaseauthportfoliodesign.png";
+import FirebaseAuthPic from "@/assets/images/newfirebaseauthportfoliodesign.png";
 import GitHubTitle from "@/assets/images/GitHub_Logo_White.png";
 import GitHubBubble from "@/assets/images/github-mark-white.png";
 
