@@ -77,7 +77,7 @@ const Projects = () => {
       <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden text-center">
         <div>
           <p className="text-white text-3xl font-bold text-center">
-            Firebase Login Register Demo
+          React Firebase Authentication with Custom UI
           </p>
           <div className="flex justify-center">
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
@@ -207,7 +207,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      
+
       {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
       {/* OTHER / GITHUB LINK */}
       {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
