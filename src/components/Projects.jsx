@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioWebPic from "@/assets/images/portfoliowebsitepic.png";
 import TaskAppPic from "@/assets/images/taskappportfolio.png";
-import FirebaseAuthPic from "@/assets/images/firebaseauthportfolio.png";
+import FirebaseAuthPic from "@/assets/images/firebaseauthportfoliodesign.png";
 import GitHubTitle from "@/assets/images/GitHub_Logo_White.png";
 import GitHubBubble from "@/assets/images/github-mark-white.png";
 
@@ -141,7 +141,9 @@ const Projects = () => {
 
       <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden text-center">
         <div>
-          <p className="text-white text-3xl font-bold text-center">Firebase Login Register Demo</p>
+          <p className="text-white text-3xl font-bold text-center">
+            Firebase Login Register Demo
+          </p>
           <div className="flex justify-center">
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
           </div>
@@ -157,12 +159,13 @@ const Projects = () => {
         <h2 className="mt-4 text-center">
           <ul className="flex flex-col">
             <li className="mb-2">- Interactive UI</li>
-            <li className="mb-2">
-              - Conditional Rendering
-            </li>
+            <li className="mb-2">- Conditional Rendering</li>
             <li className="mb-2">- React / Vite</li>
+            <li className="mb-2">- React Router DOM</li>
             <li className="mb-2">- Firebase Authenticaion</li>
             <li className="mb-2">- Login Register</li>
+            <li className="mb-2">- TailwindCSS</li>
+            <li className="mb-2">- Custom UI Design</li>
           </ul>
         </h2>
 
