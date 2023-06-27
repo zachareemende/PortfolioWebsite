@@ -2,7 +2,7 @@ import React from "react";
 import "@/assets/css/About.css";
 import webDesign from "@/assets/images/b.png";
 import personalPhoto from "@/assets/images/melookingatlacircle.png";
-import resume from "../assets/files/MendeZacharee_Resume_052023.pdf"
+import resume from "../assets/files/ZachareeMendeResume2023.pdf"
 
 const About = () => {
   return (
