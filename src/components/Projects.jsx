@@ -41,6 +41,7 @@ const Projects = () => {
         </h2>
         <h2 className="mt-8 text-center">
           <ul className="flex flex-col">
+            <li className="mb-2">- Javascript</li>
             <li className="mb-2">
               - Demonstration of{" "}
               <span className="text-yellow-300">clean and efficient</span>{" "}
@@ -94,6 +95,7 @@ const Projects = () => {
 
         <h2 className="mt-4 text-center">
           <ul className="flex flex-col">
+            <li className="mb-2">- Javascript</li>
             <li className="mb-2">- Interactive UI</li>
             <li className="mb-2">- Conditional Rendering</li>
             <li className="mb-2">- React / Vite</li>
@@ -154,11 +156,11 @@ const Projects = () => {
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
           </div>
         </div>
-          <img
-            src={ChefsRecipeBookPic}
-            alt="CSharp Chef's Recipe Book Image"
-            className="h-36 md:h-40 mx-auto rounded"
-          />
+        <img
+          src={ChefsRecipeBookPic}
+          alt="CSharp Chef's Recipe Book Image"
+          className="h-36 md:h-40 mx-auto rounded"
+        />
         <h2 className="mt-4 text-center">
           <ul className="flex flex-col">
             <li className="mb-2">- C#</li>
@@ -207,6 +209,7 @@ const Projects = () => {
 
         <h2 className="mt-4 text-center">
           <ul className="flex flex-col">
+            <li className="mb-2">- Javascript</li>
             <li className="mb-2">- Interactive UI</li>
             <li className="mb-2">
               - Task Create, Complete, and Delete function
@@ -268,23 +271,6 @@ const Projects = () => {
         </h2>
 
         <div className="flex justify-end">
-          <a href="https://zachareemendetaskapp.netlify.app/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-12 m-5"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-              />
-            </svg>
-          </a>
-
           <a href="https://github.com/zachareemende">
             <svg
               xmlns="http://www.w3.org/2000/svg"
