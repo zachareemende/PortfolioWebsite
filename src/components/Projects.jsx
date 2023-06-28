@@ -1,7 +1,8 @@
 import React from "react";
 import PortfolioWebPic from "@/assets/images/portfoliowebsitepic.png";
-import TaskAppPic from "@/assets/images/taskappportfolio.png";
 import FirebaseAuthPic from "@/assets/images/newfirebaseauthportfoliodesign.png";
+import ChefsRecipeBookPic from "@/assets/images/chefsrecipebook.png";
+import TaskAppPic from "@/assets/images/taskappportfolio.png";
 import GitHubTitle from "@/assets/images/GitHub_Logo_White.png";
 import GitHubBubble from "@/assets/images/github-mark-white.png";
 
@@ -77,7 +78,7 @@ const Projects = () => {
       <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden text-center">
         <div>
           <p className="text-white text-3xl font-bold text-center">
-          React Firebase Authentication with Custom UI
+            React Firebase Authentication with Custom UI
           </p>
           <div className="flex justify-center">
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
@@ -123,6 +124,51 @@ const Projects = () => {
           </a>
 
           <a href="https://github.com/zachareemende/FirebaseAuth">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="w-12 m-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+      {/* CHEFSNDISHES ASP NET CORE */}
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+      <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden text-center">
+        <div>
+          <p className="text-white text-3xl font-bold text-center">
+            Chef's Recipe Book
+          </p>
+          <div className="flex justify-center">
+            <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
+          </div>
+        </div>
+          <img
+            src={ChefsRecipeBookPic}
+            alt="CSharp Chef's Recipe Book Image"
+            className="h-36 md:h-40 mx-auto rounded"
+          />
+        <h2 className="mt-4 text-center">
+          <ul className="flex flex-col">
+            <li className="mb-2">- C#</li>
+            <li className="mb-2">- ASP .NET Core MVC</li>
+            <li className="mb-2">- Bootstrap</li>
+          </ul>
+        </h2>
+
+        <div className="flex justify-end">
+          <a href="https://github.com/zachareemende/ChefsNDishes">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
