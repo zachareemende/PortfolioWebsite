@@ -1,10 +1,36 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "@/assets/css/About.css";
 import webDesign from "@/assets/images/b.png";
 import personalPhoto from "@/assets/images/melookingatlacircle.png";
-import resume from "../assets/files/ZachareeMendeResume2023.pdf"
+import resume from "../assets/files/ZachareeMendeResume2023.pdf";
 
 const About = () => {
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate-slide-in-right");
+            entry.target.classList.remove("opacity-0");
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    if (imageRef.current) {
+      observer.observe(imageRef.current);
+    }
+
+    return () => {
+      if (imageRef.current) {
+        observer.unobserve(imageRef.current);
+      }
+    };
+  }, []);
+
   return (
     <div
       id="about"
@@ -25,16 +51,16 @@ const About = () => {
           <div className="flex md:justify-normal justify-center mt-5">
             <a
               href={resume}
-              className="rounded-lg p-3 flex items-center bg-violet-600 font-semibold py-2 px-4  shadow-md transform hover:translate-y-1 transition-transform duration-200" 
+              className="rounded-lg p-3 flex items-center bg-yellow-300 font-semibold py-2 px-4 shadow-md transform hover:translate-y-1 transition-transform duration-200"
               download
             >
-              <span className="mr-2">Resume</span>
+              <span className="mr-2 text-black">Resume</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
-                stroke="currentColor"
+                stroke="black"
                 className="w-6 h-6"
               >
                 <path
@@ -50,7 +76,8 @@ const About = () => {
       <div className="w-full md:w-1/4 flex md:flex-row flex-col m-1">
         <div className="p-4 place-content-center grid">
           <img
-            className="object-scale-down md:h-96 md:w-96 md:block hidden img-size"
+            ref={imageRef}
+            className="object-scale-down md:h-96 md:w-96 md:block hidden img-size opacity-0"
             src={personalPhoto}
             alt="me looking out at downtown los angeles"
           />
