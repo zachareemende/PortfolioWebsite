@@ -25,7 +25,7 @@ const About = () => {
           <div className="flex md:justify-normal justify-center mt-5">
             <a
               href={resume}
-              className="rounded-lg p-3 font-bold bg-violet-600 flex items-center" 
+              className="rounded-lg p-3 flex items-center bg-violet-600 font-semibold py-2 px-4  shadow-md transform hover:translate-y-1 transition-transform duration-200" 
               download
             >
               <span className="mr-2">Resume</span>

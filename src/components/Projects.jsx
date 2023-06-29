@@ -16,6 +16,7 @@ const Projects = () => {
         <div className="flex md:justify-normal justify-center">
           <div className="bg-yellow-300 h-1 mt-1 m-px w-1/4 md:w-28 rounded"></div>
         </div>
+        <p className="text-gray-500 mt-5">* = deployed</p>
       </div>
 
       {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
@@ -25,16 +26,19 @@ const Projects = () => {
         <div>
           <p className="text-white text-3xl font-bold text-center">
             Portfolio Site
+            <span className="m-2 text-gray-500">*</span>
           </p>
           <div className="flex justify-center">
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
           </div>
         </div>
-        <img
-          src={PortfolioWebPic}
-          alt="coding for portfolio website"
-          className="h-36 md:h-40 w-auto mx-auto rounded"
-        />
+        <a href="https://github.com/zachareemende/PortfolioWebsite.git">
+          <img
+            src={PortfolioWebPic}
+            alt="coding for portfolio website"
+            className="h-36 md:h-40 w-auto mx-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-200"
+          />
+        </a>
         <h2 className="mt-4 text-center">
           Check out the code for this{" "}
           <span className="text-yellow-300">mobile responsive</span> website!
@@ -60,8 +64,8 @@ const Projects = () => {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-12 m-5"
+              stroke="black"
+              className="w-12 md:w-16 m-5 bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform hover:translate-y-1 transition-transform duration-200"
             >
               <path
                 strokeLinecap="round"
@@ -80,6 +84,7 @@ const Projects = () => {
         <div>
           <p className="text-white text-3xl font-bold text-center">
             React Firebase Authentication with Custom UI
+            <span className="m-2 text-gray-500">*</span>
           </p>
           <div className="flex justify-center">
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
@@ -89,7 +94,7 @@ const Projects = () => {
           <img
             src={FirebaseAuthPic}
             alt="Login / Register Image"
-            className="h-36 md:h-40 mx-auto rounded"
+            className="h-36 md:h-40 mx-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-200"
           />
         </a>
 
@@ -114,8 +119,8 @@ const Projects = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="currentColor"
-              class="w-12 m-5"
+              stroke="black"
+              class="w-12 md:w-16 m-5 bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform hover:translate-y-1 transition-transform duration-200"
             >
               <path
                 stroke-linecap="round"
@@ -131,8 +136,8 @@ const Projects = () => {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-12 m-5"
+              stroke="black"
+              className="w-12 md:w-16 m-5 bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform hover:translate-y-1 transition-transform duration-200"
             >
               <path
                 strokeLinecap="round"
@@ -156,11 +161,13 @@ const Projects = () => {
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
           </div>
         </div>
-        <img
-          src={ChefsRecipeBookPic}
-          alt="CSharp Chef's Recipe Book Image"
-          className="h-36 md:h-40 mx-auto rounded"
-        />
+        <a href="https://github.com/zachareemende/ChefsNDishes">
+          <img
+            src={ChefsRecipeBookPic}
+            alt="CSharp Chef's Recipe Book Image"
+            className="h-36 md:h-40 mx-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-200"
+          />
+        </a>
         <h2 className="mt-4 text-center">
           <ul className="flex flex-col">
             <li className="mb-2">- C#</li>
@@ -176,8 +183,8 @@ const Projects = () => {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-12 m-5"
+              stroke="black"
+              className="w-12 md:w-16 m-5 bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform hover:translate-y-1 transition-transform duration-200"
             >
               <path
                 strokeLinecap="round"
@@ -194,7 +201,10 @@ const Projects = () => {
       {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
       <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden text-center">
         <div>
-          <p className="text-white text-3xl font-bold text-center">taskApp</p>
+          <p className="text-white text-3xl font-bold text-center">
+            taskApp<span className="m-2 text-gray-500">*</span>
+          </p>
+
           <div className="flex justify-center">
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
           </div>
@@ -203,7 +213,7 @@ const Projects = () => {
           <img
             src={TaskAppPic}
             alt="To-do list / task app ui"
-            className="h-36 md:h-40 mx-auto rounded"
+            className="h-36 md:h-40 mx-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-200"
           />
         </a>
 
@@ -227,8 +237,8 @@ const Projects = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="currentColor"
-              class="w-12 m-5"
+              stroke="black"
+              class="w-12 md:w-16 m-5 bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform hover:translate-y-1 transition-transform duration-200"
             >
               <path
                 stroke-linecap="round"
@@ -244,8 +254,8 @@ const Projects = () => {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-12 m-5"
+              stroke="black"
+              className="w-12 md:w-16 m-5 bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform hover:translate-y-1 transition-transform duration-200"
             >
               <path
                 strokeLinecap="round"
@@ -262,8 +272,14 @@ const Projects = () => {
       {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
       <div className="bg-slate-800 text-black p-6 rounded-lg shadow overflow-hidden flex-col">
         <a href="https://github.com/zachareemende">
-          <img src={GitHubTitle} alt="GitHub" className="h-24 mx-auto" />
-          <img src={GitHubBubble} alt="GitHub Logo" className="h-12 mx-auto" />
+          <div className="rounded-lg transform hover:scale-105 transition-transform duration-200">
+            <img src={GitHubTitle} alt="GitHub" className="h-24 mx-auto " />
+            <img
+              src={GitHubBubble}
+              alt="GitHub Logo"
+              className="h-12 mx-auto"
+            />
+          </div>
         </a>
 
         <h2 className="mt-6 text-center">
@@ -277,8 +293,8 @@ const Projects = () => {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-12 m-5"
+              stroke="black"
+              className="w-12 md:w-16 m-5 bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform hover:translate-y-1 transition-transform duration-200"
             >
               <path
                 strokeLinecap="round"
