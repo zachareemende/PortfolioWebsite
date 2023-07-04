@@ -8,7 +8,7 @@ const FrontPage = () => {
       style={{ height: "775px" }}
       className="bg-gradient-to-b from-black to-slate-900 p-12 pt-44 md:p-44 flex md:flex-row flex-col"
     >
-      <div className="md:w-3/4 md:text-left text-center">
+      <div className="md:w-3/4 md:text-left text-center animate-slide-in-left">
         <p className="text-xl">👋 Hello, my name is</p>
         <div className="flex md:justify-normal justify-center">
           <div className="bg-yellow-300 h-1 mt-1 m-px w-1/4 md:w-28 rounded"></div>
