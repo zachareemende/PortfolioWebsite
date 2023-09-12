@@ -5,6 +5,7 @@ import ChefsRecipeBookPic from "@/assets/images/chefsrecipebook.png";
 import TaskAppPic from "@/assets/images/taskappportfolio.png";
 import GitHubTitle from "@/assets/images/GitHub_Logo_White.png";
 import GitHubBubble from "@/assets/images/github-mark-white.png";
+import PosterProject from "@/assets/images/posterproject.png";
 
 const Projects = () => {
   return (
@@ -17,6 +18,75 @@ const Projects = () => {
           <div className="bg-yellow-300 h-1 mt-1 m-px w-1/4 md:w-28 rounded"></div>
         </div>
         <p className="text-gray-500 mt-5">* = deployed</p>
+      </div>
+
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+      {/* POSTER REACT / ASP.NET CORE */}
+      {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+      <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden">
+        <div>
+          <p className="text-white text-3xl font-bold text-center">Poster</p>
+          <div className="flex justify-center">
+            <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
+          </div>
+        </div>
+        <a href="https://github.com/zachareemende/Poster.git">
+          <img
+            src={PosterProject}
+            alt="Poster website image"
+            className="h-36 md:h-40 w-auto mx-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-200"
+          />
+        </a>
+        <h2 className="mt-4 text-center">
+          This website is a{" "}
+          <span className="text-red-500">WORK IN PROGRESS</span>.
+          <p className="mt-4">
+            <span className="underline">Soon</span> to be deployed!
+          </p>
+        </h2>
+        <h2 className="mt-4 text-center text-yellow-300">
+          React frontend with ASP.NET Core backend!
+        </h2>
+        <h2 className="mt-8 text-center">
+          <h2 className="mb-2 underline decoration-yellow-300">
+            Current Features
+          </h2>
+          <ul className="flex flex-col">
+            <li className="mb-2">- ASP.NET Core</li>
+            <li className="mb-2">- React / Vite</li>
+            <li className="mb-2">- Javascript</li>
+            <li className="mb-2">- C#</li>
+            <li className="mb-2">
+              - Authenticated Users Can Create Posts With Captions
+            </li>
+            <li className="mb-2">
+              - Ability to Like and Comment on different Users' posts
+            </li>
+            <li className="mb-2">- CRUD Operations</li>
+            <li className="mb-2">- JWT Token Authenticaion</li>
+            <li className="mb-2">- React Router DOM</li>
+            <li className="mb-2">- Responsive Design</li>
+            <li className="mb-2">- TailwindCSS</li>
+          </ul>
+        </h2>
+        <div className="flex justify-end">
+          <a href="https://github.com/zachareemende/Poster">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="black"
+              className="w-12 md:w-16 m-5 bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform hover:translate-y-1 transition-transform duration-200"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
 
       {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
@@ -43,6 +113,9 @@ const Projects = () => {
           Check out the code for this{" "}
           <span className="text-yellow-300">mobile responsive</span> website!
         </h2>
+        <p className="mt-4 text-center text-sm text-gray-300">
+          Make sure to check out this website on your phone!
+          </p>
         <h2 className="mt-8 text-center">
           <ul className="flex flex-col">
             <li className="mb-2">- Javascript</li>
@@ -201,9 +274,10 @@ const Projects = () => {
       {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
       <div className="bg-slate-800 p-6 rounded-lg shadow overflow-hidden text-center">
         <div>
-          <p className="text-white text-3xl font-bold text-center">taskApp<span className="m-2 text-gray-500">*</span>
+          <p className="text-white text-3xl font-bold text-center">
+            taskApp<span className="m-2 text-gray-500">*</span>
           </p>
-          
+
           <div className="flex justify-center">
             <div className="bg-yellow-300 h-1 mb-6 w-1/4 md:w-28 rounded"></div>
           </div>
