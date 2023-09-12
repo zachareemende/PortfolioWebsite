@@ -105,7 +105,7 @@ const Projects = () => {
         <a href="https://github.com/zachareemende/PortfolioWebsite.git">
           <img
             src={PortfolioWebPic}
-            alt="coding for portfolio website"
+            alt="coding picture for portfolio website"
             className="h-36 md:h-40 w-auto mx-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-200"
           />
         </a>
