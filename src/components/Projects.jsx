@@ -5,7 +5,7 @@ import ChefsRecipeBookPic from "@/assets/images/chefsrecipebook.png";
 import TaskAppPic from "@/assets/images/taskappportfolio.png";
 import GitHubTitle from "@/assets/images/GitHub_Logo_White.png";
 import GitHubBubble from "@/assets/images/github-mark-white.png";
-import PosterProject from "@/assets/images/posterproject.png";
+import PosterProject from "@/assets/images/posterprojectpic.png";
 
 const Projects = () => {
   return (
